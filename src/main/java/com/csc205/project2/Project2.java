@@ -33,8 +33,17 @@ public class Project2 {
         The following code works with the code given.
          */
 
-        Sphere sphere = new Sphere(2.0);
+        Shape sphere = new Sphere(2.0);
         System.out.println(sphere);
+
+        Shape cube = new Cube(5.0);
+        System.out.println(cube);
+
+        Shape cylinder = new Cylinder(4.0, 1.0);
+        System.out.println(cylinder);
+
+        Shape cone = new Cone(4, 6);
+        System.out.println(cone);
     }
 
 }
